@@ -105,6 +105,6 @@ if __name__ == "__main__":
 
      visualise_intermediate_layers(model, image_batch, layer_names)
 
-     print(model.inputs)
+
 
 

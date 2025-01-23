@@ -26,6 +26,7 @@ if __name__ == "__main__":
                             validation_data=(test_images, test_labels))
         epoch_counter += epochs_per_iteration
 
-        model.save("output", "model.h5")
+        # Save the model
+        model.save(os.path.join("output", "model.h5"))
 
         print(f"Total number of epochs this train session: {epoch_counter}")
