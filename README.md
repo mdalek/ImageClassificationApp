@@ -29,7 +29,7 @@ Install python dependencies:
 pip install - r requirements.txt
 ```
 
-## Run
+## Scripts
 
 ### Train a model
 
@@ -55,4 +55,30 @@ python scripts/continue_training.py
 Run test script:
 ```shell
 python scripts/test.py
+```
+
+## Frontend
+
+Make sure to change directory into the `frontend/`:
+
+```shell
+cd frontend/
+```
+
+To install the frondend dependecies run:
+
+```shell
+npm install
+```
+
+To run the development server run:
+
+```shell
+npm run start
+```
+
+And to build the production files:
+
+```shell
+npm run build
 ```
